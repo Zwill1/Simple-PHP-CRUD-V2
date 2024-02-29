@@ -49,6 +49,13 @@
             echo "<h6 class='text-center'>".$_GET['message']."</h6>";
         }
         
+        ?>
+
+        <?php 
+        
+        if(isset($_GET['insert_msg'])){
+            echo "<h6 class='text-center'>".$_GET['insert_msg']."</h6>";
+        }
         
         ?>
 
